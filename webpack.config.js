@@ -1,6 +1,9 @@
+/// CommonJS module syntax
+// Same as --> import { ppath } from "path";
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+// export { config }
 module.exports = {
   entry: "./src/index.js",
   output: {
